@@ -1,0 +1,19 @@
+.sect-banner2  {
+    background-image: url(https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7u0o3i84kn2M0zywawe5fA/829fa9d992cc5772d4b009b122dbef07/ubisoft-evergreen_full_banner-swo_no_logo-early-access.jpg);
+    background-size: cover;
+    height: 390px;
+    width: 100%;
+    margin-top: 0;
+    background-position: center;
+    font-family: "ubisoft_sansbold", sans-serif;
+    color: white;
+
+}
+.titulo
+{
+margin-left:45% ;
+}
+.escrito
+{
+    margin-left:40% ;
+}

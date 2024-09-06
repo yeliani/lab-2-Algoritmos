@@ -1,0 +1,25 @@
+
+div  {
+    display: flex;
+    font-family: "ubisoft_sansbold", sans-serif;
+}
+
+div img  {
+    width: 100%;
+}
+div div{
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-left: 2rem;
+}
+
+p  {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+h3  {
+    margin-top: 0;
+    font-weight:bolder;
+    line-height: 1.5rem;
+}
