@@ -16,15 +16,17 @@ app-container  {
 
 .navegador{
     width: 100%;
-    height: 20%;
+    height: 7%;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     display: flex;
     font-weight: bold;
     cursor: pointer;
+    position: fixed;
+    z-index: 1;
 }
 .navegador img  {
-    width: 12%;
+    width: 10%;
     margin-left: 40px;
     object-fit: cover;
 }
@@ -41,57 +43,8 @@ app-container  {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left:80%;
 }
 
-.user-icon svg  {
-    width: 40%;
-}
-.user-icon  {
-    margin-left: 7%;
-}
-.user-icon p  {
-    margin-left: -300%;
-}
-.sec{
-    width: 100%;
-    height: 900px;
-background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202306/0113/dff5e6c6b9cdd36b417d13aea5bc7cede609f70a44905ac8.jpg");
-background-color: #cccccc; /* if the image is unavailable */
-background-position: center; /* Center the image */
-background-repeat: no-repeat, repeat;
-background-size:cover;
-margin-top: -7.5%;
-}
-.texto{
-    position: absolute;
-    top: 50%; /* Centra verticalmente el texto */
-    left: 25%;
-    z-index: 1000;
-    color: white;
-    text-align: center;
-    margin-top:9% ;
-}
-
-
-
-.texto{
-    position: absolute;
-    top: 50%; /* Centra verticalmente el texto */
-    left: 25%;
-    z-index: 1000;
-    color: white;
-    text-align: center;
-    margin-top:9% ;
-}
-
-
-
-.ubisoft
-{ 
-    width: 60%;
-
-}
 .user-icon svg  {
     width: 40%;
 }
@@ -116,11 +69,16 @@ margin-top: -7.5%;
     color: #D80388;
     
 }
+.last-news div p  {
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+
+}
 .last-news div p:hover  {
     color: black;
     border-bottom: 2px solid black;
     
 }
+
 .last-news  {
     text-align: center;
 }
@@ -264,19 +222,107 @@ margin-top: -7.5%;
     background-color:#eeeeee ;
     width: 100%;
     padding: 3rem;
+    height: 550px;
 }
 #sect1  {
     width: 50%;
+    margin-top: 10%;
+    margin-left: 2rem;
+    
 }
+#button {
+   width: 100%;
+   margin: 0;
+   margin-left: -180px;
+}
+
 .sect2 {
     width: 50%;
     justify-content: center;
     align-items: center;
     margin-top: 2%;
+    bottom:2% ;
 }
 .sect2 img  {
     width: 100%;
     justify-content: center;
     gap: 4rem;
+   
+}
+#sect1 h1  {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 15px;
+    margin-bottom: 2rem;
+    width: 80%;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
 }
 
+
+
+
+
+.ubisoft-connect  {
+    display: flex;
+    width: 100%;
+    background-color: #091225;
+}
+#comp1 img  {
+    width: 79%;
+    margin-left: 6rem;
+    
+}
+#comp1  {
+    width: 42%;
+    
+}
+.comp2  {
+    width: 58%;
+    margin-top: 2%;
+    margin-right: 10px;
+}
+.comp2 h1 {
+    color: white;
+    font-size: 50px;
+    text-shadow: 0px 0px 0.2px rgb(255, 255, 255);
+}
+.comp2 p  {
+    color: white;
+    font-size: 27px;
+    margin-top: 2%;
+    width: 95%;
+}
+#btn-final  {
+    margin-top: 2%;
+    margin-left: -580px;
+}
+
+
+.bnr  {
+    background-color: black;
+    display: flex;
+}
+#bnr1  {
+    width: 48%;
+    color: #9B9B9B;
+    font-size: 12px;
+    font-weight: lighter;
+    padding-left: 4rem;
+}
+#bnr1 p  {
+   margin-top: 2.5%;
+}
+#bnr2  {
+    width: 58%;
+    padding: 5px;
+    
+}
+#bnr2 img  {
+    width: 4%;
+    top: 3px;
+    margin-left: 20px;
+    
+}
+#mg2  {
+    margin-left: 20px;
+}

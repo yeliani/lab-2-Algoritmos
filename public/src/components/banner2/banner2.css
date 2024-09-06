@@ -7,13 +7,29 @@
     background-position: center;
     font-family: "ubisoft_sansbold", sans-serif;
     color: white;
-
+   
+    
 }
-.titulo
-{
-margin-left:45% ;
+.sect-banner2 img  {
+    width: 11%;
+    margin: 0;
+    padding: 0;
 }
-.escrito
-{
-    margin-left:40% ;
+#title  {
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 4px 4px 6px rgb(0, 0, 0);
+}
+#subTitle  {
+    font-weight: lighter;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+.text-content {
+  
+    margin-top: 3%;
 }

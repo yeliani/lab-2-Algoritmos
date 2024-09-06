@@ -13,25 +13,19 @@ connectedCallback() {
     
 }
 
-attributeChangedCallback(name, oldValue, newValue) {
-   
-}
+attributeChangedCallback(name, oldValue, newValue) {}
 
-
-    render() {
-        this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./src/components/banner2/banner2.css">
-             <div class="titulo">
-              <h1>Star Wars Outlaws</h1>
-              </div>
-              <div class="escrito"
-              <p>Get 3 Days Early Access with Ubisof+ Premium or Gold Edition</p>
-              </div>
-            
-
+	render() {
+		this.shadowRoot.innerHTML = `
+					<link rel="stylesheet" href="./src/components/banner2/banner2.css">
+					<h1 id="title">Star Wars Outlaws</h1>
+					<p id="subTitle">Get 3 days Early Acces with Ubisoft+ Premium or Gold Edition.</p>
+			
+           
+			
     `;
-    }
+	}
 }
 
-customElements.define('bannertwo-component', Banner2);
+customElements.define('banner2-component', Banner2);
 export default Banner2;
