@@ -13,6 +13,7 @@ class AppContainer extends HTMLElement {
 	render() {
 		this.shadowRoot.innerHTML = `
 			<link rel="stylesheet" href="./src/components/banner2/banner2.css">
+			<link rel="stylesheet" href="/public/index.css">
 			<nav-component></nav-component>
 			<banner-component></banner-component>
 			<section class= "sect-banner2">
@@ -173,38 +174,38 @@ class AppContainer extends HTMLElement {
 
 
 
-		<section class="sectInside">
-			 <h1>INSIDE UBISOFT</h1>
-			<div id="container">
-				<div class="cards4">
-					<img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6t0bHfZtjQSoM6bOkr23K4/a7077a1153c3c86cd99ad45865d87bae/V1_2024_UBISOFT_FWD_STD_1-1.png">
-					<h3>UBISOFT FORWARD 2024 ANNOUNCE</h3>
+			<section class="sectInside">
+				<h1>INSIDE UBISOFT</h1>
+				<div id="container">
+					<div class="cards4">
+						<img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6t0bHfZtjQSoM6bOkr23K4/a7077a1153c3c86cd99ad45865d87bae/V1_2024_UBISOFT_FWD_STD_1-1.png">
+						<h3>UBISOFT FORWARD 2024 ANNOUNCE</h3>
+					</div>
+					<div class="cards4">
+						<img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1Jiy0xlbsM3yAfOBlWqLjP/73597f0849b0df6a3fb610e86f8a83a7/ubi-inside_ubisoft-story_of_the_crew.jpg">
+						<h3>THE INSIDE STORY OF THE CREW</h3>
+					</div>
+					<div class="cards4">
+						<img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7gNozofogBtXA0jBWH3KTE/783a16421f3434ec40df225aa412d0e3/ubi-homescreen-inside-ubisoft-UbiPride2023_480x480.jpg">
+						<h3>UBISOFT’S COMMITMENT TO LGBTQIA+ COMMUNITIES</h3>
+					</div>
+					
 				</div>
-				<div class="cards4">
-					<img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1Jiy0xlbsM3yAfOBlWqLjP/73597f0849b0df6a3fb610e86f8a83a7/ubi-inside_ubisoft-story_of_the_crew.jpg">
-					<h3>THE INSIDE STORY OF THE CREW</h3>
-				</div>
-				<div class="cards4">
-					<img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7gNozofogBtXA0jBWH3KTE/783a16421f3434ec40df225aa412d0e3/ubi-homescreen-inside-ubisoft-UbiPride2023_480x480.jpg">
-					<h3>UBISOFT’S COMMITMENT TO LGBTQIA+ COMMUNITIES</h3>
-				</div>
-				 
-			</div>
-		</section>
+			</section>
 
 
 
-		<section class="sectWallpapers">
-			<div id="sect1">
-				<h1>Ubisoft Fan Kits, Wallpapers and More!</h1>	
-				<btn-component id="btn" color="#D80388"label="LEARN MORE"></btn-component>
-			</div>
-			<div class="sect2">
-					<img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3GuXXIwqLXe9SOVWAElIX1/3f6ef0ee0af05c4db2b96fe3f7e71892/2023_06_Multi-Brands.png">
-			</div>
-				
-		</section>
-	
+			<section class="sectWallpapers">
+				<div id="sect1">
+					<h1>Ubisoft Fan Kits, Wallpapers and More!</h1>	
+					<btn-component id="btn" color="#D80388"label="LEARN MORE"></btn-component>
+				</div>
+				<div class="sect2">
+						<img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3GuXXIwqLXe9SOVWAElIX1/3f6ef0ee0af05c4db2b96fe3f7e71892/2023_06_Multi-Brands.png">
+				</div>
+					
+			</section>
+		
 
 
 

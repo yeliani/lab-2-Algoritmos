@@ -1,6 +1,6 @@
 class CardDescriptGame extends HTMLElement {
 	static get observedAttributes() {
-		return ['img', 'subtitle', 'date'];
+		return ['img', 'subtitle',"icon1","icon2","icon3","icon4",];
 	}
 
 	constructor() {
@@ -25,9 +25,16 @@ class CardDescriptGame extends HTMLElement {
 			<div>
                 <img src=${this.img}>
                 <div>
-                    <p>${this.date}</p>
-                    <h3>${this.title}</h3>
+                    
+                    <h3>${this.subtitle}</h3>
                  </div>
+				 <div class="icons">
+				 <svg> ${this.icon1}</svg>
+				 <svg> ${this.icon2}</svg>
+				 <svg> ${this.icon3}</svg>
+				 <svg>${this.icon4}</svg>
+
+				 </div>
             </div>
 			
     `;
